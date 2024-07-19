@@ -1,0 +1,160 @@
+//! about page css
+.about {
+    display: none;
+    width: 100%;
+    height: 70vh;
+    background-image: url(./assets/photos/Frame\ 136.png);
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+
+ h2 {
+    font-family: Playfair-Display;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 57.78px;
+    text-align: left;
+    position: absolute;
+    left: 120px;
+    top: 150px;
+}
+p {
+    width: 522px;
+    font-family: Radio Canada;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 31.9px;
+    text-align: left;
+    position: absolute;
+    bottom: 30px;
+    left: 120px;
+}
+}
+
+.focus  .container {
+ 
+    display: flex;
+    width: 80%;
+    height: 60vh;
+    margin: 100px 10%;
+    color: rgba(255, 255, 255, 1);
+    gap: 20px;
+    .left {
+        width: 50%;
+        p {
+            font-family: Radio Canada;
+            font-size: 22px;
+            font-weight: 300;
+            line-height: 31.9px;
+            text-align: left;
+        
+        }
+        h2 {
+            font-family: Playfair-Display;
+            font-size: 36px;
+            font-weight: 400;
+            line-height: 38.77px;
+            text-align: center;
+            color: rgba(4, 193, 193, 1);
+            margin-top: 30px;
+        }
+    }
+}
+
+
+.focus .container .right {
+    width: 50%;
+    position: relative;
+}
+
+.right .cola img {
+    width: 365px;
+    height: 365px;
+    border-radius: 70px 0;
+    position: absolute;
+    left: 50px;
+}
+
+.right .sprite img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50px 0;
+    position: absolute;
+    right: 50px;
+    bottom: 20px;
+}
+
+.right .big {
+    width: 365px;
+    height: 365px;
+    border-radius: 70px 0;
+    border: 3px solid rgba(4, 193, 193, 1);
+    position: absolute;
+    right: 70px;
+    bottom: 50px;
+    z-index: -1;
+}
+
+.right .little {
+    width: 110px;
+    height: 110px;
+    border-radius: 40px 0;
+    border: 3px solid rgba(4, 193, 193, 1);
+    position: absolute;
+    left: 40px;
+    z-index: -1;
+}
+
+.focus .bottom {
+    height: 40vh;
+    border: 1px solid red;
+    background: rgba(17, 16, 16, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+.focus .bottom p {
+    font-family: Radio Canada;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40.6px;
+    text-align: center;
+    color: rgba(200, 200, 200, 1);
+    padding: 70px;
+}
+
+.focus .bottom img {
+    position: absolute;
+    left: 30%;
+}
+
+<section class="focus">
+    <div class="container">
+        <div class="left">
+            <p>Currently, our primary focus lies in the realm of parallel import-export within the FMCG (Fast-Moving
+                Consumer Goods) category, specializing in food products, beverages, snacks, and more, primarily
+                engaged in wholesale trade. <br><br>
+                At our core, we embody the principles of freshness, efficiency, and excellence. Our commitment to
+                delivering high-quality products and services is incapsuled in our moto:</p>
+            <h2>Fresh. Fast. Fantastic.</h2>
+        </div>
+        <div class="right">
+            <div class="cola">
+                <img src="./assets/photos/548270-coca-cola.png" alt="">
+            </div>
+            <div class="sprite">
+                <img src="./assets/photos/76JLDT54UFLJ3PVCQM3XX7UEZE.png" alt="">
+            </div>
+            <div class="little"></div>
+            <div class="big"></div>
+        </div>
+
+    </div>
+
+    <div class="bottom container">
+        <img src="./assets/photos/Vector (3).png" alt="">
+        <p>
+            Our operations extend beyond Lithuania, encompassing various European countries. We have cultivated
+            strong partnerships and contractual agreements with reputable retail chains throughout Europe.
+        </p>
+    </div>
+</section>

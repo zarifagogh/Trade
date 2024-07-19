@@ -1,0 +1,17 @@
+
+
+@mixin lightblue{
+    background: linear-gradient(261.91deg, #04C1C1 -1.66%, #9BE3E3 -1.65%, #04C1C1 64.99%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+@mixin lightgreen{
+    background: #63DEA6;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}

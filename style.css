@@ -1,0 +1,576 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  background: radial-gradient(71.24% 130.97% at 66.51% 79.36%, #2B2B2B 0%, #000000 100%);
+}
+
+@font-face {
+  font-family: Radio Canada;
+  src: url(./assets/fonts/Radio_Canada/RadioCanada-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: Playfair-Display;
+  src: url(./assets/fonts/Playfair_Display\,Radio_Canada/);
+}
+@font-face {
+  font-family: Gotham Pro;
+  src: url(./assets/fonts/Gotham\ Pro/);
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.dark-bg {
+  background: radial-gradient(48.67% 62.56% at 50% 50%, #222325 0%, #181818 100%);
+}
+
+header {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+header .item-1 {
+  width: 190px;
+  height: 55px;
+  border-bottom: 1px solid #04C1C1;
+  text-align: center;
+  padding-top: 10px;
+}
+header .item-1 img {
+  width: 22px;
+  height: auto;
+}
+header .item-1 a {
+  background: linear-gradient(261.91deg, #04C1C1 -1.66%, #9BE3E3 -1.65%, #04C1C1 64.99%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-family: Radio Canada;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.6px;
+  margin-left: 10px;
+}
+header .item-2 a {
+  color: #ffffff;
+  font-family: Radio Canada;
+  margin-right: 7px;
+}
+header .item-2 a span {
+  background: linear-gradient(261.91deg, #04C1C1 -1.66%, #9BE3E3 -1.65%, #04C1C1 64.99%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+header svg {
+  fill: #63DEA6;
+  margin-top: 10px;
+}
+
+.section_1 .main {
+  height: 60vh;
+  width: 90%;
+  margin: 10vh 5% 0 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.section_1 .main .text {
+  width: 50%;
+}
+.section_1 .main .text h1 {
+  font-family: Playfair-Display;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 57.78px;
+  color: white;
+}
+.section_1 .main .text h1 span {
+  background: linear-gradient(261.91deg, #04C1C1 -1.66%, #9BE3E3 -1.65%, #04C1C1 64.99%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.section_1 .main .text p {
+  margin-top: 20px;
+  font-family: Radio Canada;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 31.9px;
+  color: #C8C8C8;
+}
+.section_1 .main .text button {
+  margin-top: 20px;
+  width: 228px;
+  height: 60px;
+  padding: 20px;
+  gap: 10px;
+  border: none;
+  background-color: #63DEA6;
+}
+.section_1 .main .text button img {
+  width: 15px;
+  margin-right: 10px;
+}
+.section_1 .main .img {
+  width: 50%;
+  margin-top: 43px;
+}
+.section_1 .main .img img {
+  height: 400px;
+}
+
+.section_2 .products {
+  margin: 0 auto;
+  height: 140vh;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+.section_2 .products .text {
+  display: flex;
+  color: #ffffff;
+  gap: 50px;
+}
+.section_2 .products .text h1 {
+  font-family: Playfair-Display;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 51.7px;
+}
+.section_2 .products .text p {
+  font-family: Radio Canada;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 31.9px;
+}
+.section_2 .products .items {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  gap: 50px;
+}
+.section_2 .products .items .item {
+  display: flex;
+  position: relative;
+  width: 305px;
+  height: 377px !important;
+}
+.section_2 .products .items .item .label {
+  width: 197px;
+  height: 200px;
+}
+.section_2 .products .items .item .drinks {
+  position: absolute;
+  width: 238px;
+  height: 175px;
+  top: 80px;
+  left: 50px;
+}
+.section_2 .products .items .item h2 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+}
+.section_2 .products .items .item .bottom {
+  width: 300px;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  border-top: 2px solid white;
+  position: absolute;
+  bottom: 30px;
+}
+.section_2 .products .items .item .bottom div {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #63DEA6;
+  color: #63DEA6;
+  text-align: center;
+}
+.section_2 .products .items .item .bottom p {
+  color: #ffffff;
+}
+
+.section_3 .text {
+  display: flex;
+}
+.section_3 .text h2 {
+  color: #ffffff;
+}
+.section_3 .text div {
+  margin: 8px 50px;
+  border-bottom: 2px solid #63DEA6;
+  padding-bottom: 10px;
+}
+.section_3 .text div img {
+  width: 22px;
+  height: 22px;
+}
+.section_3 .text div a {
+  color: #63DEA6;
+}
+.section_3 .info {
+  margin-top: 50px;
+  display: flex;
+  gap: 20px;
+}
+.section_3 .info .img {
+  background: linear-gradient(19.48deg, rgba(226, 243, 253, 0.24) -10.08%, rgba(147, 225, 237, 0.24) 16.82%, rgba(2, 185, 243, 0.24) 47.06%, rgba(2, 138, 190, 0.24) 78.53%, rgba(0, 92, 157, 0.24) 108.39%);
+  width: 100px;
+  height: 100px;
+  border-radius: 40px 0 40px 0;
+  padding: 25px;
+}
+.section_3 .info h3 {
+  color: #E2F3FD;
+  margin: 30px 0;
+  font-family: Playfair-Display;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+}
+.section_3 .info hr {
+  margin: 30px 0;
+  width: 52.76px;
+  height: 0px;
+  border: 1px solid #04C1C1;
+}
+.section_3 .info p {
+  margin: 30px 0;
+  font-family: Radio Canada;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22.5px;
+  text-align: left;
+  color: #C8C8C8;
+}
+
+.section_4 {
+  text-align: center;
+  margin-top: 50px;
+  color: #ffffff;
+}
+.section_4 h2 {
+  font-family: Playfair-Display;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 51.7px;
+  text-align: center;
+  color: #E2F3FD;
+  margin: 20px 0;
+}
+.section_4 .span {
+  font-family: Gotham Pro;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 17.23px;
+}
+.section_4 p {
+  font-family: Gotham Pro;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 31.05px;
+}
+.section_4 .contact {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.section_4 .contact div {
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+}
+.section_4 .contact img {
+  margin: 0;
+}
+.section_4 img {
+  margin-top: 50px;
+}
+
+.about {
+  display: none;
+  width: 100%;
+  height: 70vh;
+  background-image: url(./assets/photos/Frame\ 136.png);
+  color: rgb(255, 255, 255);
+  position: relative;
+  margin-top: 20px;
+}
+.about h2 {
+  font-family: Playfair-Display;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 57.78px;
+  text-align: left;
+  position: absolute;
+  left: 120px;
+  top: 150px;
+}
+.about p {
+  width: 522px;
+  font-family: Radio Canada;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 31.9px;
+  text-align: left;
+  position: absolute;
+  bottom: 30px;
+  left: 120px;
+}
+
+.focus {
+  display: none;
+}
+
+.focus .container {
+  display: flex;
+  width: 80%;
+  height: 60vh;
+  margin: 100px 10%;
+  color: rgb(255, 255, 255);
+  gap: 20px;
+}
+.focus .container .left {
+  width: 50%;
+}
+.focus .container .left p {
+  font-family: Radio Canada;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 31.9px;
+  text-align: left;
+}
+.focus .container .left h2 {
+  font-family: Playfair-Display;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 38.77px;
+  text-align: center;
+  color: rgb(4, 193, 193);
+  margin-top: 30px;
+}
+
+.focus .container .right {
+  width: 50%;
+  position: relative;
+}
+
+.right .cola img {
+  width: 365px;
+  height: 365px;
+  border-radius: 70px 0;
+  position: absolute;
+  left: 50px;
+}
+
+.right .sprite img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50px 0;
+  position: absolute;
+  right: 50px;
+  bottom: 20px;
+}
+
+.right .big {
+  width: 365px;
+  height: 365px;
+  border-radius: 70px 0;
+  border: 3px solid rgb(4, 193, 193);
+  position: absolute;
+  right: 70px;
+  bottom: 50px;
+  z-index: -1;
+}
+
+.right .little {
+  width: 110px;
+  height: 110px;
+  border-radius: 40px 0;
+  border: 3px solid rgb(4, 193, 193);
+  position: absolute;
+  left: 40px;
+  z-index: -1;
+}
+
+.focus .bottom {
+  height: 40vh;
+  background: rgb(17, 16, 16);
+  position: relative;
+  overflow: hidden;
+}
+
+.focus .bottom p {
+  font-family: Radio Canada;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40.6px;
+  text-align: center;
+  color: rgb(200, 200, 200);
+  padding: 70px;
+}
+
+.focus .bottom img {
+  position: absolute;
+  left: 30%;
+}
+
+footer {
+  width: 100%;
+  height: 285px;
+  background-color: #111010;
+  padding: 5%;
+  position: relative;
+  display: flex;
+}
+footer .img-back {
+  width: 414px;
+  height: 285px;
+  position: absolute;
+  bottom: 0;
+  left: 300px;
+}
+footer .cr {
+  position: absolute;
+  font-family: Gotham Pro;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 11.48px;
+  text-align: left;
+  bottom: 10px;
+  left: 580px;
+}
+footer .part-1 {
+  width: 415px;
+  height: 203px;
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+}
+footer .part-1 span {
+  font-family: Gotham Pro;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #C8C8C8;
+  margin-bottom: 10px;
+}
+footer .part-1 p {
+  font-family: Gotham Pro;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.31px;
+  text-align: left;
+}
+footer .part-1 .span {
+  font-family: Gotham Pro;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 17.23px;
+  text-align: left;
+}
+footer .part-2 {
+  width: 414px;
+  text-align: center;
+}
+footer .part-2 .img img {
+  width: 126px;
+  height: 45px;
+}
+footer .part-2 .text a {
+  color: #ffffff;
+  font-family: Radio Canada;
+  margin-right: 7px;
+}
+footer .part-2 .text a span {
+  background: linear-gradient(261.91deg, #04C1C1 -1.66%, #9BE3E3 -1.65%, #04C1C1 64.99%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+footer .part-2 .logo {
+  margin-top: 30px;
+}
+footer .part-2 .logo svg {
+  fill: #ffffff;
+  margin: 0 5px;
+}
+footer .part-3 {
+  width: 414px;
+  display: flex;
+  margin-left: 50px;
+}
+footer .part-3 .left {
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px;
+}
+footer .part-3 .left button {
+  display: flex;
+  background-color: transparent;
+  color: #E2F3FD;
+  border: none;
+  font-family: Gotham Pro;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 17.23px;
+  margin: 7px;
+}
+footer .part-3 .left button svg {
+  margin: 0 10px;
+  fill: #E2F3FD;
+}
+footer .part-3 .right {
+  color: #E2F3FD;
+}
+footer .part-3 .right div {
+  display: flex;
+}
+footer .part-3 .right div svg {
+  margin: 4px 0;
+  fill: #E2F3FD;
+}
+footer .part-3 .right p {
+  margin-left: 15px;
+}
+
+.modal-title {
+  font-family: Playfair-Display;
+  font-size: 54px;
+  font-weight: 500;
+  line-height: 58.16px;
+  text-align: center;
+  color: #E2F3FD;
+}
+.modal-title span {
+  color: #04C1C1;
+}
+
+.modal-footer button {
+  width: 122px;
+  height: 60px;
+  opacity: 0px;
+  background: #63DEA6;
+  font-size: 18px;
+  font-weight: 500;
+}
+.modal-footer button svg {
+  margin-right: 10px;
+}/*# sourceMappingURL=style.css.map */

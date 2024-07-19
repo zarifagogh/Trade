@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+
+}
+body {
+    background:radial-gradient(71.24% 130.97% at 66.51% 79.36%, #2B2B2B 0%, #000000 100%);
+}
+
+@font-face {
+    font-family: Radio Canada;
+    src: url(./assets/fonts/Radio_Canada/RadioCanada-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: Playfair-Display;
+    src: url(./assets/fonts/Playfair_Display\,Radio_Canada/);
+}
+
+@font-face {
+    font-family: Gotham Pro;
+    src: url(./assets/fonts/Gotham\ Pro/);
+}
